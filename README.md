@@ -196,4 +196,7 @@ An interactive Streamlit application allows users to:
 * Approximate Nearest Neighbors (FAISS)
 * CI/CD pipeline for automated deployment
 ----
+👨‍💻 Author
+Youssef Mahmoud Faculty of Computers & Information Aspiring Data Scientist / ML Engineer
+
 URL Linked in :[https://www.linkedin.com/in/youssef-mahmoud-63b243361?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDsEvhvY0QxSMfbsidmm2Ww%3D%3D]
