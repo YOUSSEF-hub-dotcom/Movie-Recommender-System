@@ -67,7 +67,7 @@ def clean_data(df_full):
 
     logger.info("Filling missing values in 'overview' with empty string...")
     df_full['overview'] = df_full['overview'].fillna(
-        df_full['overview'].mode()[0]
+        "UnKnown"
     )
 
     logger.info(" Filling missing values in 'tagline' with empty string...")
@@ -88,5 +88,9 @@ def clean_data(df_full):
     #plt.title("Remaining Missing Values")
     #plt.show()
 
+    df_full.drop_duplicates(inplace=True)
+
     return df_full
+
+
 
