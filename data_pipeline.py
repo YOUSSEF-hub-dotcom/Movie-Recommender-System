@@ -88,7 +88,7 @@ def clean_data(df_full):
     #plt.title("Remaining Missing Values")
     #plt.show()
 
-    df_full.drop_duplicates(inplace=True)
+    df_full.drop_duplicates(keep='first')
 
     return df_full
 
